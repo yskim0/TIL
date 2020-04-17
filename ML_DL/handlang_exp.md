@@ -6,7 +6,7 @@
 실험 3 acc 0.88
 실험 4 진행중
 
-1. YOLO hand tracking pre-trained weight[04/15]
+### 1. YOLO hand tracking pre-trained weight[04/15]
 
 이 경우에는 지영언니가 핸드 트레킹 모델을 사용했을 때 썼던 사람의 웨이트를 들고옴.
 (https://github.com/yskim0/Handlang/commit/538759165905a170654f36d752da3717c8ece8c4#comments)
@@ -22,7 +22,11 @@ ACC = 0.47 정도...
 - 이전과의 변동사항
     - 숫자 라벨 삭제(그로인해 cfg파일의 filters, num_classes 바뀜)
 
-2. YOLOv2-tiny weight pre-trained weight[04/16]
+
+<br>
+
+
+### 2. YOLOv2-tiny weight pre-trained weight[04/16]
 
 YOLOv2 사이트에서 제공하는 weight를 가져옴.
 1번과 마찬가지로 새로운 모델을 만들어서 시험함.
@@ -43,7 +47,12 @@ YOLOv2 사이트에서 제공하는 weight를 가져옴.
 
 - 1번보다 성능이 아주 조금은 더 좋은 듯하여 웹에 올려 본 결과 만족스럽지 않음...
 
-3. Inception-v3 classifier[04/17]
+
+<br>
+
+
+
+### 3. Inception-v3 classifier[04/17]
 
 - 욜로에서 한번 벗어나보려고 시도해봄.
 
@@ -80,7 +89,12 @@ python retrain.py --bottleneck_dir=bottleneck --how_many_training_steps=1000 --m
 
 - *문제는 우리가 지금까지 구축한 웹에 올리는 방법을 아직 모른다는 것...*
 
-4. (진행 중)Tensorflow Object Detection Api
+
+
+<br>
+
+
+### 4. (진행 중)Tensorflow Object Detection Api
     - 3번은 classifier였기 때문에 사실상 우리가 원하는 게 아님. 따라서 Object detection으로...
     - tensorflow에서 이를 제공해주는 api가 있음.  
         - fast-rcnn, mobilnet, ssd 다 제공!
