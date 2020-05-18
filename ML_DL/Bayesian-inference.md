@@ -82,3 +82,7 @@
  1) 베이즈 추정량
   2) 사후 메디안 추정량
   3) MAP(Maximum a posterior) 추정량 
+
+## Reference
+
+[베이지안 추론(1) - 이론](https://sumniya.tistory.com/29)
