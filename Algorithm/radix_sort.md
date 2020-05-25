@@ -1,4 +1,4 @@
-# Radix Sort (기수 정렬)
+# Radix Sort (기수 정렬)
 
 ## 요약
 
@@ -65,16 +65,6 @@ void coalesce(){
 ## (Example) C++ code 
 
 구현은 추후에 하겠습니다.
-
-### output
-
-```
-Enter the number of elements: 6
-Enter elements:
-9 45 23 71 80 55
-Array before Sorting: 9 45 23 71 80 55
-Array after Sorting: 9 23 45 55 71 80
-```
 
 ## Analysis
 
